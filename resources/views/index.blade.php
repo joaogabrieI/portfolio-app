@@ -4,10 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @vite('resources/css/app.css')
     <title>Portifólio</title>
 </head>
 
 <body>
+    <h1 class="text-3xl font-bold underline">
+       teste 
+    </h1>
     <header>
         <nav>
             <ul>
@@ -30,7 +34,7 @@
                 <p>Sou um estudante dedicado de Desenvolvimento de Software com entusiasmo por aprender e crescer na indústria. Minhas principais áreas de interesse são o desenvolvimento de aplicações com linguagem PHP, HTML, CSS, Javascript e SQL. Estou constantemente aprimorando minhas habilidades técnicas e buscando oportunidades para aplicar meus conhecimentos em projetos práticos.</p>
                 <a href="#contact_me">Entre em contato</a>
             </div>
-            <img src="../images/eu.jpg" alt="">
+            <img src="{{asset('images/eu.jpg')}}" alt="">
         </section>
         <section id="technologies">
             <div>
