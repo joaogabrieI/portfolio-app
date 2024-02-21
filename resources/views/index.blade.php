@@ -9,20 +9,15 @@
 </head>
 
 <body>
-    <h1 class="text-3xl font-bold underline">
-       teste 
-    </h1>
     <header>
-        <nav>
-            <ul>
+        <nav class="shadow-lg">
+            <ul class="p-6 space-x-4 text-xl justify-end flex items-center mx-auto">
                 <li><a href="#about_me">Sobre mim</a></li>
                 <li><a href="#technologies">Tecnologias</a></li>
                 <li><a href="#academic">Currículo acadêmico</a></li>
                 <li><a href="#projects">Projetos</a></li>
-            </ul>
-            <ul>
                 <li>
-                    <a href="#contact-me">Contatos</a>
+                    <a href="#contact-me" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow">Contatos</a>
                 </li>
             </ul>
         </nav>
@@ -34,7 +29,9 @@
                 <p>Sou um estudante dedicado de Desenvolvimento de Software com entusiasmo por aprender e crescer na indústria. Minhas principais áreas de interesse são o desenvolvimento de aplicações com linguagem PHP, HTML, CSS, Javascript e SQL. Estou constantemente aprimorando minhas habilidades técnicas e buscando oportunidades para aplicar meus conhecimentos em projetos práticos.</p>
                 <a href="#contact_me">Entre em contato</a>
             </div>
-            <img src="{{asset('images/eu.jpg')}}" alt="">
+            <div>
+                <img src="{{asset('images/eu.jpg')}}" alt="">
+            </div>
         </section>
         <section id="technologies">
             <div>
