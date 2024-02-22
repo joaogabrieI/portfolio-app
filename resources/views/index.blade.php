@@ -17,52 +17,69 @@
                 <li><a href="#academic">Currículo acadêmico</a></li>
                 <li><a href="#projects">Projetos</a></li>
                 <li>
-                    <a href="#contact-me" class="text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow btn-contact">Contatos</a>
+                    <a href="#contact-me"
+                        class="text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow btn-contact">Contatos</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="about_me">
+        <section id="about_me" class="grid grid-colums-2 p-6 flex items-center">
             <div class="main_msg">
                 <h1>Olá, eu sou João Gabriel, um desenvolvedor de software.</h1>
-                <p>Sou um estudante dedicado de Desenvolvimento de Software com entusiasmo por aprender e crescer na indústria. Minhas principais áreas de interesse são o desenvolvimento de aplicações com linguagem PHP, HTML, CSS, Javascript e SQL. Estou constantemente aprimorando minhas habilidades técnicas e buscando oportunidades para aplicar meus conhecimentos em projetos práticos.</p>
-                <a href="#contact_me">Entre em contato</a>
+                <p>Sou um estudante dedicado de Desenvolvimento de Software com entusiasmo por aprender e crescer na
+                    indústria. Minhas principais áreas de interesse são o desenvolvimento de aplicações com linguagem
+                    PHP, HTML, CSS, Javascript e SQL. Estou constantemente aprimorando minhas habilidades técnicas e
+                    buscando oportunidades para aplicar meus conhecimentos em projetos práticos.</p>
+                <div class="mt-6">
+                    <a href="#contact_me"
+                        class="text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow btn-contact">Entre
+                        em contato</a>
+                </div>
             </div>
-            <div>
+            <div class="col-start-2">
                 <img src="{{asset('images/eu.jpg')}}" alt="">
             </div>
         </section>
         <section id="technologies">
-            <div>
-                <img src="" alt="">
-                <h2>PHP</h2>
-                <p>descrição do que sei</p>
-            </div>
-            <div>
-                <h2>Javascript</h2>
-                <img src="" alt="">
-                <p>descrição do que sei</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h2>Java</h2>
-                <p>descrição do que sei</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h2>HTML</h2>
-                <p>descrição do que sei</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h2>CSS</h2>
-                <p>descrição do que sei</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h2>SQL</h2>
-                <p>descrição do que sei</p>
+            <h2 class="p-6 ">Tecnologias</h2>
+            <div class="grid grid-cols-3 justify-items-center">
+                <div
+                    class="max-w-sm m-2 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <img src="{{asset('images/php.png')}}" alt="" width="50px" height="50px">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium assumenda nemo eligendi
+                        ipsum
+                        inventore eum iste nihil aperiam dolorem, a officia quo fugit vero at modi nam corporis, nisi
+                        voluptates.</p>
+                </div>
+                <div
+                    class="max-w-sm m-2 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <img src="{{asset('images/php.png')}}" alt="" width="50px" height="50px">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque ratione optio voluptatibus facilis, repellendus numquam incidunt nihil dicta sapiente corporis. Accusamus, excepturi modi? Ipsa totam alias et incidunt! Earum.</p>
+                </div>
+                <div
+                    class="max-w-sm m-2 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <img src="{{asset('images/php.png')}}" alt="" width="50px" height="50px">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque ratione optio voluptatibus facilis, repellendus numquam incidunt nihil dicta sapiente corporis. Accusamus, excepturi modi? Ipsa totam alias et incidunt! Earum.</p>
+                </div>
+                <div
+                    class="max-w-sm m-2 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <img src="{{asset('images/php.png')}}" alt="" width="50px" height="50px">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium assumenda nemo eligendi
+                        ipsum
+                        inventore eum iste nihil aperiam dolorem, a officia quo fugit vero at modi nam corporis, nisi
+                        voluptates.</p>
+                </div>
+                <div
+                    class="max-w-sm m-2 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <img src="{{asset('images/php.png')}}" alt="" width="50px" height="50px">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque ratione optio voluptatibus facilis, repellendus numquam incidunt nihil dicta sapiente corporis. Accusamus, excepturi modi? Ipsa totam alias et incidunt! Earum.</p>
+                </div>
+                <div
+                    class="max-w-sm m-2 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <img src="{{asset('images/php.png')}}" alt="" width="50px" height="50px">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque ratione optio voluptatibus facilis, repellendus numquam incidunt nihil dicta sapiente corporis. Accusamus, excepturi modi? Ipsa totam alias et incidunt! Earum.</p>
+                </div>
             </div>
         </section>
         <section id="academic">

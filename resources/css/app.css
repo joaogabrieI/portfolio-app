@@ -4,6 +4,7 @@
 
 body {
     background-color: #2d4a53;
+    color: #fafafa;
 }
 
 nav {
@@ -12,4 +13,8 @@ nav {
 
 .btn-contact:hover {
     background-color: #afb3b7;
+}
+
+#technologies {
+    color: #2d4a53;
 }
