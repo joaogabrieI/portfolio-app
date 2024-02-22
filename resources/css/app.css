@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-color: #2d4a53;
+}
+
+nav {
+    background-color: #69818d;
+}
+
+.btn-contact:hover {
+    background-color: #afb3b7;
+}

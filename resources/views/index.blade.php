@@ -17,7 +17,7 @@
                 <li><a href="#academic">Currículo acadêmico</a></li>
                 <li><a href="#projects">Projetos</a></li>
                 <li>
-                    <a href="#contact-me" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow">Contatos</a>
+                    <a href="#contact-me" class="text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow btn-contact">Contatos</a>
                 </li>
             </ul>
         </nav>
