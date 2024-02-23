@@ -23,7 +23,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="container mx-auto">
         <section id="about_me" class="grid grid-colums-2 p-6 flex items-center">
             <div class="main_msg">
                 <h1>Olá, eu sou João Gabriel, um desenvolvedor de software.</h1>
@@ -42,7 +42,7 @@
             </div>
         </section>
         <section id="technologies">
-            <h2 class="p-6 ">Tecnologias</h2>
+            <h2 class="p-6 text-white text-4xl">Tecnologias</h2>
             <div class="grid grid-cols-3 justify-items-center">
                 <div
                     class="max-w-sm m-2 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -83,6 +83,7 @@
             </div>
         </section>
         <section id="academic">
+        <h2 class="p-6 text-white text-4xl">Curriculo Acadêmico</h2>
             <div>
                 <h2>2022 - atualmente</h2>
                 <p>Serviço Nacional de Aprendizagem Comercial - SENAC</p>
